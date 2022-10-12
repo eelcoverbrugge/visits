@@ -5,4 +5,4 @@ services:
   node-app:
     build: .
     ports: # use '-' for an array
-      - "8081:8081"
+      - "8081:8081" # open up access to our container on our machine
